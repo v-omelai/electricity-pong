@@ -61,6 +61,18 @@ svg path {
 
 /* Table */
 
+@media (max-width: 480px) {
+    th, td {
+        padding: 0;
+    }
+}
+
+@media (min-width: 480px) {
+    th, td {
+        padding: 5px;
+    }
+}
+
 table {
     width: 100%;
     height: 100%;
@@ -70,7 +82,6 @@ table {
 }
 
 th, td {
-    padding: 5px;
     border-color: var(--border-color);
     border-style: solid;
     border-width: 1px;
