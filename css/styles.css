@@ -91,6 +91,7 @@ th {
     height: 100px;
     color: var(--heading-color);
     writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
 
