@@ -1,5 +1,3 @@
-# Demo
-
 ## Choose Difficulty
 
 ![Choose Difficulty](./demo/choose-difficulty.gif)
